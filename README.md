@@ -1,3 +1,4 @@
+# Elif Özbay
 # Motoko Ürün Yönetimi Projesi
 
 Motoko ve Internet Computer (IC) kullanarak geliştirilmiş basit bir ürün yönetim uygulamasına hoş geldiniz. Bu proje, ürünlerinizi kaydedip yönetmenize olanak sağlar ve aynı zamanda arayüz üzerinden ürünleri güncelleme, silme ve stok durumunu değiştirme işlemlerini gerçekleştirir.
