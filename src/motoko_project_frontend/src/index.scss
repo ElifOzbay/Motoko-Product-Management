@@ -1,0 +1,130 @@
+// Genel ayarlar 
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  background-color: #f4f6f8;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+// Ana kapsayıcı 
+main {
+  width: 90%;
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+// Başlık 
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #34495e;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 5px;
+}
+
+// Form Stili 
+form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  flex: 1;
+  min-width: 150px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+// Ürün Listesi 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #ecf0f1;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #34495e;
+}
+
+li p {
+  margin: 5px 0;
+  color: #7f8c8d;
+}
+
+li div {
+  display: flex;
+  gap: 10px; /* Butonlar arasındaki boşluk */
+  margin-top: 10px; /* Butonlar ile üst kısmı arasındaki boşluk */
+}
+
+// Stok Durumu Güncelle Butonu 
+button {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
