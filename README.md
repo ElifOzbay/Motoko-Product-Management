@@ -31,7 +31,7 @@ Bu proje, Motoko dilini kullanarak geliştirilmiş bir backend ve React ile olu�
 
 
 ## Projeyi Yerel Olarak Çalıştırma
-Projeyi yerel olarak test etmek istiyorsanız, aşağıdaki komutları kullanabilirsiniz:
+Projeyi yerel olarak test etmek için aşağıdaki komutları kullanabilirsin:
 
 ```bash
 # Starts the replica, running in the background
